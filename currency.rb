@@ -32,7 +32,7 @@ def jpy_to_usd(input)
 end
 #CONVERSION
 puts "How much money do you want to convert?"
-amount = gets.strip().to_i
+amount = gets.to_i
 puts "Pick from the following menu:"
 puts "1. USD to EUR"
 puts "2. USD to JPY"
